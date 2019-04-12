@@ -1,20 +1,28 @@
 // Navigation Styles here
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
+.container-nav {
+    padding-bottom: 50px;
+    border-bottom: 2px dashed @navigation-border;
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    
-    a {
-        text-decoration: none;
-        color: black;
-        font-size: 1.6rem;
+    header {
+        display: flex;
+        justify-content: space-between;
+        h1 {
+            color: @font-color;
+        }
     }
-    a.hover {
-        color: darkgray;
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        
+        a {
+            text-decoration: none;
+            color: @font-color;
+            font-size: 1.6rem;
+        }
+        a.hover {
+            color: darkgray;
+        }
     }
 }

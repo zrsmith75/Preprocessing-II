@@ -163,29 +163,43 @@ img {
   max-width: 100%;
   height: auto;
 }
+.container-nav {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
-header {
+.container-nav {
+  padding-bottom: 50px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.container-nav header {
   display: flex;
   justify-content: space-between;
 }
-nav {
+.container-nav header h1 {
+  color: #212529;
+}
+.container-nav nav {
   display: flex;
   justify-content: space-evenly;
 }
-nav a {
+.container-nav nav a {
   text-decoration: none;
-  color: black;
+  color: #212529;
   font-size: 1.6rem;
 }
-nav a.hover {
+.container-nav nav a.hover {
   color: darkgray;
 }
 .footer {
+  max-width: 1000px;
   width: 100%;
+  margin: 0 auto;
   border-top: 2px dashed silver;
   background: #FFEBCD;
 }
