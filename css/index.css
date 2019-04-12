@@ -177,21 +177,19 @@ img {
   padding-bottom: 50px;
   border-bottom: 2px dashed #C0C0C0;
 }
-.container-nav header {
-  display: flex;
-  justify-content: space-between;
-}
-.container-nav header h1 {
-  color: #212529;
-}
 .container-nav nav {
   display: flex;
-  justify-content: space-evenly;
 }
 .container-nav nav a {
   text-decoration: none;
   color: #212529;
   font-size: 1.6rem;
+  flex-grow: 1;
+  text-align: center;
+}
+.container-nav nav .nav-logo {
+  font-size: 46px;
+  font-family: 'Indie Flower', cursive;
 }
 .container-nav nav a.hover {
   color: darkgray;
