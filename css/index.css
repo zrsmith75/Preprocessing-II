@@ -271,3 +271,6 @@ img {
   color: white;
   font-size: 2.1rem;
 }
+.home .content-pick .destination .btn:hover {
+  background-color: #006667;
+}
